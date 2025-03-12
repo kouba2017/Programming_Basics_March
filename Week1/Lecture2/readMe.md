@@ -37,3 +37,6 @@
 - **Executing a JavaScript File**
 - **Arrays:** Collection of different data types grouped together
 
+### Operations and Priority: 
+- **Basic Operators**: (+),  (-),  (*),  (/).
+- **Trickier Operators:**  modulus (%), exponentiation (**), and how parentheses () affect the order of operations.

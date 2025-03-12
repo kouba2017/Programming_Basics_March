@@ -1,4 +1,4 @@
-// Week One | Lecture One - JavaScript Basics
+// Week One | Lecture Two - JavaScript Basics
 
 // 1. Printing to the console
 
@@ -31,7 +31,21 @@ console.log(firstName,lastName,"age is ",age);// printing a phrase with our vari
 var isStudent = true; // boolean
 typeof isStudent; // "boolean"
 
-// 3. Array Example
+// 3. Order of Math Operations (Operator Precedence)
+
+// JavaScript follows the standard mathematical order of operations:
+// Parentheses > Exponents > Multiplication/Division > Addition/Subtraction
+// Also known as PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction)
+
+console.log(10 + 5 * 2); // Output: 20 (Multiplication happens before Addition)
+console.log((10 + 5) * 2); // Output: 30 (Parentheses change the order)
+console.log(20 / 2 ** 2); // Output: 5 (Exponentiation happens before Division)
+console.log(10 % 3 + 4 * 2); // Output: 9 (Modulo happens before Addition)
+
+// Order of operations can be controlled using parentheses
+
+
+// 4. Array Example
 // Array: A collection of multiple values, which can be of different data types
 var hobbies = [25, "Joe", 'Clair',true];
 //now let's replace our array with more dynamic one:
